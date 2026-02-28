@@ -5,6 +5,10 @@ export type Dropzone = {
   country: string;
   city: string;
   website?: string;
+  email?: string;
+  phone?: string;
+  latitude?: number;
+  longitude?: number;
   createdAt: string;
   updatedAt: string;
 };
@@ -19,6 +23,10 @@ export const starterDropzones: Dropzone[] = [
     country: "US",
     city: "Eloy",
     website: "https://www.skydiveaz.com",
+    email: "info@skydiveaz.com",
+    phone: "+1-520-466-3753",
+    latitude: 32.8153,
+    longitude: -111.6332,
     createdAt: now,
     updatedAt: now,
   },
@@ -29,6 +37,10 @@ export const starterDropzones: Dropzone[] = [
     country: "ES",
     city: "Empuriabrava",
     website: "https://www.skydiveempuriabrava.com",
+    email: "info@skydiveempuriabrava.com",
+    phone: "+34-972-450-111",
+    latitude: 42.246,
+    longitude: 3.1028,
     createdAt: now,
     updatedAt: now,
   },
@@ -39,6 +51,10 @@ export const starterDropzones: Dropzone[] = [
     country: "NL",
     city: "Teuge",
     website: "https://www.skydiveteuge.com",
+    email: "info@skydiveteuge.com",
+    phone: "+31-55-323-1622",
+    latitude: 52.2449,
+    longitude: 6.0462,
     createdAt: now,
     updatedAt: now,
   },
@@ -49,6 +65,10 @@ export const starterDropzones: Dropzone[] = [
     country: "US",
     city: "Rochelle",
     website: "https://www.skydivecsc.com",
+    email: "jump@skydivecsc.com",
+    phone: "+1-815-561-3663",
+    latitude: 41.8936,
+    longitude: -89.0768,
     createdAt: now,
     updatedAt: now,
   },
