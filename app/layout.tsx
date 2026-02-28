@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Dropzone Atlas",
-  description: "Slim v0.1 searchable dropzone directory",
+  description: "Modern searchable dropzone directory with maps and contact details",
 };
 
 export default function RootLayout({
